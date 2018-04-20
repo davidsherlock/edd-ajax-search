@@ -1,0 +1,812 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Easy Digital Downloads - Ajax Search\n"
+"POT-Creation-Date: 2018-04-20 12:44+0100\n"
+"PO-Revision-Date: 2018-04-20 12:44+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../../../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: edd-ajax-search.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/classes/class-activation.php:48
+msgid "This plugin"
+msgstr ""
+
+#: includes/classes/class-activation.php:83
+msgid "activate it"
+msgstr ""
+
+#: includes/classes/class-activation.php:86
+msgid "install it"
+msgstr ""
+
+#: includes/classes/class-activation.php:89
+#, php-format
+msgid " requires Easy Digital Downloads! Please %s to continue!"
+msgstr ""
+
+#: includes/classes/class-functions.php:131
+msgid "View More"
+msgstr ""
+
+#: includes/classes/class-functions.php:137
+msgid "No results found"
+msgstr ""
+
+#: includes/classes/class-options.php:51 includes/classes/class-options.php:57
+#: widgets/edd-ajax-search-widget.php:55
+msgid "EDD Ajax Search"
+msgstr ""
+
+#: includes/classes/class-options.php:59 includes/classes/class-options.php:283
+msgid "Save Settings"
+msgstr ""
+
+#: includes/classes/class-options.php:60 includes/classes/class-options.php:282
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/classes/class-options.php:88
+msgid "Search Input"
+msgstr ""
+
+#: includes/classes/class-options.php:95
+msgid "Search Placeholder"
+msgstr ""
+
+#: includes/classes/class-options.php:96
+msgid "Text shown when search input is empty"
+msgstr ""
+
+#: includes/classes/class-options.php:99
+#: includes/classes/class-short-codes.php:72
+msgid "Type to start search..."
+msgstr ""
+
+#: includes/classes/class-options.php:103
+msgid "Minimum Characters"
+msgstr ""
+
+#: includes/classes/class-options.php:104
+msgid "Minimum number of characters required to execute the search"
+msgstr ""
+
+#: includes/classes/class-options.php:115
+msgid "Maximum Results"
+msgstr ""
+
+#: includes/classes/class-options.php:116
+msgid "Maximum number of search results returned"
+msgstr ""
+
+#: includes/classes/class-options.php:133
+msgid "Submit Button"
+msgstr ""
+
+#: includes/classes/class-options.php:140
+#: includes/classes/class-options.php:303
+msgid "Hide Submit Button"
+msgstr ""
+
+#: includes/classes/class-options.php:141
+msgid "Hide submit button by default (overwritable by hide_submit=\"no\")"
+msgstr ""
+
+#: includes/classes/class-options.php:147
+msgid "Button Label"
+msgstr ""
+
+#: includes/classes/class-options.php:148
+msgid "Text shown on the submit button"
+msgstr ""
+
+#: includes/classes/class-options.php:151
+#: includes/classes/class-short-codes.php:97
+msgid "Search"
+msgstr ""
+
+#: includes/classes/class-options.php:161
+msgid "Categories Filter"
+msgstr ""
+
+#: includes/classes/class-options.php:168
+msgid "Hide Categories Filter"
+msgstr ""
+
+#: includes/classes/class-options.php:169
+msgid ""
+"Hide categories filter by default (overwritable by hide_categories=\"no\")"
+msgstr ""
+
+#: includes/classes/class-options.php:181
+msgid "Search Integration"
+msgstr ""
+
+#: includes/classes/class-options.php:188
+msgid "Restrict Search Results"
+msgstr ""
+
+#: includes/classes/class-options.php:189
+msgid "If checked, the search results will be restricted to downloads only."
+msgstr ""
+
+#: includes/classes/class-options.php:201
+msgid "Save Changes"
+msgstr ""
+
+#: includes/classes/class-options.php:223
+msgid "Shortcode Generator"
+msgstr ""
+
+#: includes/classes/class-options.php:232
+msgid ""
+"From this options page you can configure the default parameters for the "
+"[edd_ajax_search] shortcode. Using the form bellow you can generate a custom "
+"shortcode to place on any page."
+msgstr ""
+
+#: includes/classes/class-options.php:278
+msgid "Documentation"
+msgstr ""
+
+#: includes/classes/class-options.php:279
+msgid "Get support and pro features"
+msgstr ""
+
+#: includes/classes/class-options.php:308
+msgid "Hide Categories"
+msgstr ""
+
+#: includes/classes/class-short-codes.php:89
+msgid "All"
+msgstr ""
+
+#: uFramework/classes/options.php:99 uFramework/includes/functions.php:121
+msgid "Show"
+msgstr ""
+
+#: uFramework/classes/options.php:100 uFramework/includes/functions.php:125
+msgid "Hide"
+msgstr ""
+
+#: uFramework/integrations/edd/includes/functions.php:42
+msgid "Drag and drop to setup how downloads will be displayed"
+msgstr ""
+
+#: uFramework/integrations/sellcomet/classes/EDD_SL_Plugin_Updater.php:210
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: uFramework/integrations/sellcomet/classes/EDD_SL_Plugin_Updater.php:218
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: uFramework/integrations/sellcomet/classes/EDD_SL_Plugin_Updater.php:408
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: uFramework/integrations/sellcomet/classes/EDD_SL_Plugin_Updater.php:408
+msgid "Error"
+msgstr ""
+
+#: uFramework/integrations/sellcomet/classes/class-license.php:163
+#, php-format
+msgid ""
+"Enter your extension license keys here to receive updates for purchased "
+"extensions. If your license key has expired, please <a href=\"%s\" target="
+"\"_blank\">renew your license</a>."
+msgstr ""
+
+#: uFramework/integrations/sellcomet/classes/class-license.php:372
+#, php-format
+msgid ""
+"Please <a href=\"%s\">register</a> <strong>%s</strong> with a valid license "
+"key to get access to updates and support."
+msgstr ""
+
+#: uFramework/integrations/sellcomet/classes/class-license.php:410
+msgid "Enter valid license key for automatic updates."
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-advanced-file-list/CMB2_Type_Advanced_File_List.php:23
+#: uFramework/libraries/cmb2-field-advanced-file-list/CMB2_Type_Advanced_File_List.php:96
+msgid "Full View"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-advanced-file-list/CMB2_Type_Advanced_File_List.php:24
+#: uFramework/libraries/cmb2-field-advanced-file-list/CMB2_Type_Advanced_File_List.php:97
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:205
+#: uFramework/libraries/cmb2/includes/types/CMB2_Type_File_Base.php:81
+msgid "Download"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-advanced-file-list/CMB2_Type_Advanced_File_List.php:25
+#: uFramework/libraries/cmb2-field-advanced-file-list/CMB2_Type_Advanced_File_List.php:98
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:203
+#: uFramework/libraries/cmb2/includes/CMB2_Types.php:412
+#: uFramework/libraries/cmb2/includes/types/CMB2_Type_File_Base.php:83
+msgid "Remove"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-advanced-file-list/CMB2_Type_Advanced_File_List.php:46
+#: uFramework/libraries/cmb2/includes/types/CMB2_Type_File_List.php:41
+msgid "Add or Upload Files"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-ajax-search/cmb2-field-ajax-search.php:208
+msgid "Error : Unauthorized action"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-ajax-search/cmb2-field-ajax-search.php:214
+msgid "Error : Wrong request parameters"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-animation/cmb2-field-animation.php:224
+msgid "Select an animation"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-animation/cmb2-field-animation.php:249
+msgid "Animate it"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-content-wrap/cmb2-field-content-wrap.php:60
+msgid "All:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-content-wrap/cmb2-field-content-wrap.php:74
+msgid "Top:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-content-wrap/cmb2-field-content-wrap.php:88
+msgid "Right:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-content-wrap/cmb2-field-content-wrap.php:102
+msgid "Bottom:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-content-wrap/cmb2-field-content-wrap.php:116
+msgid "Left:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-content-wrap/cmb2-field-content-wrap.php:130
+msgid "Unit:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-js-controls/cmb2-field-js-controls.php:102
+msgid "Edit"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-js-controls/cmb2-field-js-controls.php:103
+msgid "OK"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-js-controls/cmb2-field-js-controls.php:104
+msgid "Cancel"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:45
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:52
+msgid "Leave empty"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:46
+msgid "Left"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:47
+msgid "Center"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:48
+msgid "Right"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:53
+msgid "Flip"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:54
+msgid "Fit"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:55
+msgid "Flip &amp; fit"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:56
+#: uFramework/libraries/cmb2/includes/CMB2_Field.php:1243
+#: uFramework/libraries/cmb2/includes/CMB2_Field.php:1247
+msgid "None"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:67
+msgid "My:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:74
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:154
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:234
+msgid "Horizontal:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:75
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:109
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:155
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:189
+msgid "Offset:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:108
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:188
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:235
+msgid "Vertical:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:147
+msgid "At:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-position/cmb2-field-position.php:227
+msgid "Collision:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-visual-style-editor/cmb2-field-visual-style-editor.php:56
+msgid "Margin"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-visual-style-editor/cmb2-field-visual-style-editor.php:62
+msgid "Border"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-visual-style-editor/cmb2-field-visual-style-editor.php:68
+msgid "Padding"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-visual-style-editor/cmb2-field-visual-style-editor.php:87
+msgid "Toggle all"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-visual-style-editor/cmb2-field-visual-style-editor.php:95
+msgid "Text color:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-visual-style-editor/cmb2-field-visual-style-editor.php:110
+msgid "Background color:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-visual-style-editor/cmb2-field-visual-style-editor.php:125
+msgid "Border color:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-visual-style-editor/cmb2-field-visual-style-editor.php:136
+msgid "Border style:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-field-visual-style-editor/cmb2-field-visual-style-editor.php:165
+msgid "Border radius:"
+msgstr ""
+
+#: uFramework/libraries/cmb2-inherit-value/cmb2-inherit-value.php:51
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:144
+msgid "Default"
+msgstr ""
+
+#: uFramework/libraries/cmb2-inherit-value/cmb2-inherit-value.php:52
+msgid "Override"
+msgstr ""
+
+#: uFramework/libraries/cmb2-metatabs-options/code/cmb2_metatabs_options.php:1081
+#: uFramework/libraries/cmb2/includes/CMB2_Options_Hookup.php:130
+msgid "Settings updated."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2.php:176
+msgid "Metabox configuration is required to have an ID parameter."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2.php:578
+msgid "Click to toggle"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Ajax.php:75
+msgid "Please Try Again"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Ajax.php:181
+msgid "Remove Embed"
+msgstr ""
+
+#. translators: 1: results for. 2: link to codex.wordpress.org/Embeds
+#: uFramework/libraries/cmb2/includes/CMB2_Ajax.php:189
+#: uFramework/libraries/cmb2/includes/helper-functions.php:105
+#, php-format
+msgid "No oEmbed Results Found for %1$s. View more info at %2$s."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Base.php:422
+#, php-format
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favor of the \"%1$s\" "
+"parameter."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Base.php:426
+#, php-format
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favor of the \"%1$s\" parameter."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Base.php:456
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Base.php:458
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Base.php:491
+#: uFramework/libraries/cmb2/includes/CMB2_Hookup_Base.php:100
+#: uFramework/libraries/cmb2/includes/CMB2_Options_Hookup.php:286
+#: uFramework/libraries/cmb2/includes/types/CMB2_Type_Base.php:149
+#, php-format
+msgid "Invalid %1$s property: %2$s"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Base.php:506
+#: uFramework/libraries/cmb2/includes/types/CMB2_Type_Base.php:133
+#, php-format
+msgid "Invalid %1$s method: %2$s"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Field.php:1211
+msgid "Add Group"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Field.php:1212
+msgid "Remove Group"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Field.php:1358
+msgid "Sorry, this field does not have a cmb_id specified."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Field_Display.php:432
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:204
+#: uFramework/libraries/cmb2/includes/types/CMB2_Type_File_Base.php:78
+msgid "File:"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Hookup_Base.php:42
+#, php-format
+msgid "%1$s should be implemented by the extended class."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:143
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:184
+msgid "Clear"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:145
+msgid "Select Color"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:146
+msgid "Current Color"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:174
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:175
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:176
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:177
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:178
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:179
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:180
+msgid "Next"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:181
+msgid "Prev"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:182
+msgid "Today"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:183
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:193
+msgid "Done"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:187
+msgid "Choose Time"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:188
+msgid "Time"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:189
+msgid "Hour"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:190
+msgid "Minute"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:191
+msgid "Second"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:192
+msgid "Now"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:194
+msgctxt ""
+"Valid formatting string, as per http://trentrichardson.com/examples/"
+"timepicker/"
+msgid "hh:mm TT"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:200
+msgid "Use this file"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:201
+msgid "Use these files"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:202
+#: uFramework/libraries/cmb2/includes/types/CMB2_Type_File_Base.php:63
+msgid "Remove Image"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_JS.php:206
+msgid "Select / Deselect All"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Options_Hookup.php:126
+msgid "Nothing to update."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Types.php:231
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Types.php:349
+msgid "Add Row"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_Types.php:412
+msgid "Remove Row"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_hookup.php:181
+msgid ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_hookup.php:185
+msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/CMB2_hookup.php:458
+#, php-format
+msgid "Toggle panel: %s"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/helper-functions.php:303
+msgid "Save"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller.php:257
+msgid "This box does not have read permissions."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller.php:277
+msgid "This box does not have write permissions."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller.php:300
+msgid ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest"
+"\" parameter configured."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller.php:378
+msgid "A human-readable description of the object."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller.php:385
+msgid "The id for the object."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller.php:392
+msgid "The title for the object."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+msgid "Includes the registered fields for the box in the response."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:122
+msgid "No boxes found."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:27
+msgid ""
+"Includes the box object which the fields are registered to in the response."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:30
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:33
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:36
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:236
+msgid ""
+"CMB2 Field value cannot be updated without the value parameter specified."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:297
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:312
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:341
+msgid "No field found by that id."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:415
+#, php-format
+msgid "Value Error for %s"
+msgstr ""
+
+#. translators: %s: register_routes()
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:25
+#, php-format
+msgid "Method '%s' must be overridden."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:35
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:47
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:59
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:71
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:83
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:95
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:107
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:119
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:131
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:143
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:155
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:168
+#, php-format
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:273
+msgid "Current page of the collection."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:281
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:290
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/shim/WP_REST_Controller.php:308
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/types/CMB2_Type_File.php:76
+msgid "Add or Upload File"
+msgstr ""
+
+#: uFramework/libraries/cmb2/includes/types/CMB2_Type_Taxonomy_Base.php:99
+msgid "No terms"
+msgstr ""
+
+#: widgets/edd-ajax-search-widget.php:30
+msgid "Title:"
+msgstr ""
+
+#: widgets/edd-ajax-search-widget.php:36
+msgid "Hide categories filter:"
+msgstr ""
+
+#: widgets/edd-ajax-search-widget.php:42
+msgid "Hide submit button:"
+msgstr ""
+
+#: widgets/edd-ajax-search-widget.php:55
+msgid "Displays a live product search form"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Easy Digital Downloads - Ajax Search"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/edd-ajax-search"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Live product search for Easy Digital Downloads."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sell Comet"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://sellcomet.com"
+msgstr ""
