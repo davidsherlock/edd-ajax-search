@@ -1,4 +1,4 @@
-drop-downs=== Easy Digital Downloads - Ajax Search ===
+=== Easy Digital Downloads - Ajax Search ===
 Contributors: sellcomet
 Tags: sellcomet, easy, digital, downloads, easy digital downloads, edd, ajax, search, ajax search, edd ajax search, edd ajax, edd search, form, search form, ajax form, search result, blog ajax search, blog
 Requires at least: 4.0
@@ -42,7 +42,7 @@ If you want to boost EDD Ajax Search, you can also visit our website and explore
 * Easily reorder and disable specific search form elements, including the search field, submit button, categories, tags, and post type drop-downs.
 * Show a customisable “View More” link at the bottom of the search results, with the ability to modify the “No Results Found” text.
 * Automatically caches results to speed up all searches
-*
+* Reports of the most popular
 * Enhanced WordPress search can be easily disabled if you wish to use your own search engine (SearchWP for example).
 * Ability to define custom meta keys to search with conditional operators to make searches more precise.
 * Control the order that results are returned by including “Best Match” (results which contain the greatest number of matches first), date, and post type preferences.
@@ -52,7 +52,7 @@ If you want to boost EDD Ajax Search, you can also visit our website and explore
 * CSS resources (stylesheets) can be easily disabled from the options.
 * Built with developers and third-party integration in mind. Loaded with action hooks and filters, making customisation easy.
 
-For a more detailed list of options and features of EDD Ajax Search, please read the [official documentation](https://sellcomet.com/docs/edd-ajax-search/ "EDD Ajax Search Official Documentation").
+For a more detailed list of options and features of Easy Digital Downloads Ajax Search and Ajax Search Pro, please read the [official documentation](https://sellcomet.com/docs/edd-ajax-search/ "EDD Ajax Search Official Documentation").
 
 == Installation ==
 
@@ -77,7 +77,7 @@ For a more detailed list of options and features of EDD Ajax Search, please read
 == Frequently Asked Questions ==
 
 * Does EDD Ajax Search uses any caching method?
-Yes, of course. EDD Ajax Search automatically caches results to improve speed for already performed searches.
+Yes, of course. EDD Ajax Search automatically caches results to improve speed for already executed searches.
 
 * What is the purpose of the submit button?
 EDD Ajax Search triggers automatically the search when the user types the minimum number of characters required to execute the search. The submit button will send the entered search query to the default WordPress search engine.
