@@ -24,7 +24,7 @@ if ( ! class_exists( 'EDD_Ajax_Search_Functions' ) ) {
          * @return      void
          */
         public function __construct() {
-            
+
             // WordPress Ajax requests
             add_action( 'wp_ajax_edd_ajax_search', array( $this, 'ajax_search' ) );
             add_action( 'wp_ajax_nopriv_edd_ajax_search', array( $this, 'ajax_search' ) );
@@ -68,7 +68,7 @@ if ( ! class_exists( 'EDD_Ajax_Search_Functions' ) ) {
                 $query = new WP_Query( $query_args );
 
                 if ( $query->have_posts() ) {
-                    while ($query->have_posts()) {
+                    while ( $query->have_posts() ) {
                         $query->the_post();
 
                         ob_start(); ?>
