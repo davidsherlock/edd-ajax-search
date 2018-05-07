@@ -7,8 +7,14 @@
  */
 
 // Exit if accessed directly
-if ( !defined( 'ABSPATH' ) ) exit;
+if ( ! defined( 'ABSPATH' ) ) exit;
 
+/**
+ * Setup "Sell Comet" plugin license classes
+ *
+ * @since       1.0.0
+ * @return      void
+ */
 if ( ! function_exists( 'sellcomet_license_plugin' ) ) {
     function sellcomet_license_plugin( $plugin_path ) {
         if ( is_admin() && function_exists( 'get_plugin_data' ) ) {
@@ -31,18 +37,36 @@ if ( ! function_exists( 'sellcomet_license_plugin' ) ) {
     }
 }
 
+/**
+ * Returns "Sell Comet" URL
+ *
+ * @since       1.0.0
+ * @return      string URL
+ */
 if ( ! function_exists( 'sellcomet_url' ) ) {
     function sellcomet_url() {
         return 'https://sellcomet.com';
     }
 }
 
+/**
+ * Returns "Sell Comet" support URL
+ *
+ * @since       1.0.0
+ * @return      string URL
+ */
 if ( ! function_exists( 'sellcomet_support_url' ) ) {
     function sellcomet_support_url() {
         return sellcomet_url() . '/support';
     }
 }
 
+/**
+ * Returns "Sell Comet" product URL
+ *
+ * @since       1.0.0
+ * @return      string URL
+ */
 if ( ! function_exists( 'sellcomet_product_url' ) ) {
     function sellcomet_product_url( $product_slug ) {
         $product_slug = ( strpos( $product_slug, 'pro' ) === false ) ? $product_slug . '-pro' : $product_slug;
@@ -50,12 +74,24 @@ if ( ! function_exists( 'sellcomet_product_url' ) ) {
     }
 }
 
+/**
+ * Returns "Sell Comet" product documentation URL
+ *
+ * @since       1.0.0
+ * @return      string URL
+ */
 if ( ! function_exists( 'sellcomet_product_docs_url' ) ) {
     function sellcomet_product_docs_url( $product_slug ) {
         return sellcomet_url() . '/docs/' . $product_slug;
     }
 }
 
+/**
+ * Render "Sell Comet" logo
+ *
+ * @since       1.0.0
+ * @return      void
+ */
 if ( ! function_exists( 'sellcomet_product_logo' ) ) {
     function sellcomet_product_logo() {
     ?>

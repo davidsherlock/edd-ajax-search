@@ -223,9 +223,9 @@ if ( ! function_exists( 'uframework_update_option' ) ) {
         $opts = get_option( $options_key, array() );
 
         if ( ! $single ) {
-            $opts[$key][] = $value;
+            $opts[ $key ][] = $value;
         } else {
-            $opts[$key] = $value;
+            $opts[ $key ] = $value;
         }
 
         return update_option( $options_key, $opts );

@@ -9,6 +9,12 @@
 // Exit if accessed directly
 if ( ! defined( 'ABSPATH' ) ) exit;
 
+/**
+ * Add "Sell Comet" menu item
+ *
+ * @since       1.0.0
+ * @return      void
+ */
 if ( ! function_exists( 'sellcomet_admin_menu' ) ) {
     add_action('admin_menu', 'sellcomet_admin_menu');
     function sellcomet_admin_menu() {
@@ -16,6 +22,12 @@ if ( ! function_exists( 'sellcomet_admin_menu' ) ) {
     }
 }
 
+/**
+ * Sell Comet admin page layout
+ *
+ * @since       1.0.0
+ * @return      void
+ */
 if ( ! function_exists( 'sellcomet_admin_page' ) ) {
     function sellcomet_admin_page() {
         ?>

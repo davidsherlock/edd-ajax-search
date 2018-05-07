@@ -4,6 +4,8 @@
  *
  * @package     uFramework\Sell_Comet\Scripts
  * @since       1.0.0
+ * @author      Sell Comet
+ * @copyright   Copyright (c) Sell_Comet
  */
 
 // Exit if accessed directly

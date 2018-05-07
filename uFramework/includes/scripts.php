@@ -10,7 +10,7 @@
  */
 
 // Exit if accessed directly
-if( !defined( 'ABSPATH' ) ) exit;
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 /**
  * Register scripts
@@ -46,11 +46,11 @@ if ( ! function_exists( 'uframework_register_scripts' ) ) {
 if ( ! function_exists( 'uframework_admin_enqueue_scripts' ) ) {
     add_action( 'admin_enqueue_scripts', 'uframework_admin_enqueue_scripts', 100 );
     function uframework_admin_enqueue_scripts( $hook ) {
-        //Stylesheets
+        // Stylesheets
         wp_enqueue_style( 'uframework-css' );
         wp_enqueue_style( 'uframework-cmb2' );
 
-        //Scripts
+        // Scripts
         wp_enqueue_script( 'uframework-js' );
         wp_enqueue_script( 'uframework-cmb2-js' );
     }

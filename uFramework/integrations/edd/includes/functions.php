@@ -4,13 +4,19 @@
  *
  * @package         uFramework\Easy_Digital_Downloads\Functions
  * @since           1.0.0
- *
  * @author          Sell Comet
  * @copyright       Copyright (c) Sell Comet
  */
+
 // Exit if accessed directly
 if ( ! defined( 'ABSPATH' ) ) exit;
 
+/**
+ * Render EDD Download Template Form
+ *
+ * @since       1.0.0
+ * @return      void
+ */
 if ( ! function_exists( 'uframework_edd_download_template_form' ) ) {
     function uframework_edd_download_template_form( $options_key, $options_prefix = '' ) {
         $thumbnail_size = cmb2_get_option( $options_key, $options_prefix . 'download_thumbnail_size', 80 );
@@ -45,6 +51,12 @@ if ( ! function_exists( 'uframework_edd_download_template_form' ) ) {
     }
 }
 
+/**
+ * Save EDD Download Template Form order
+ *
+ * @since       1.0.0
+ * @return      void
+ */
 if ( ! function_exists( 'uframework_edd_save_download_template_form' ) ) {
     function uframework_edd_save_download_template_form( $uframework_options ) {
         // Download parts order
@@ -64,28 +76,40 @@ if ( ! function_exists( 'uframework_edd_save_download_template_form' ) ) {
             'download_purchase',
         );
 
-        foreach( $checkboxes_options as $checkbox_option ) {
-            $uframework_options->update( $checkbox_option, isset( $_REQUEST[$checkbox_option] ) );
+        foreach ( $checkboxes_options as $checkbox_option ) {
+            $uframework_options->update( $checkbox_option, isset( $_REQUEST[ $checkbox_option ] ) );
         }
     }
     add_action( 'uframework_save_options', 'uframework_edd_save_download_template_form' );
 }
 
+/**
+ * Return EDD Download Template Form placeholders
+ *
+ * @since       1.0.0
+ * @return      array
+ */
 if ( ! function_exists( 'uframework_edd_download_placeholder' ) ) {
     function uframework_edd_download_placeholder( $thumbnail_size ) {
         return array(
-            'thumbnail' => '<div class="download-part-thumbnail" style="width: ' . $thumbnail_size . 'px; height: ' . $thumbnail_size . 'px;"><span style="line-height: ' . $thumbnail_size . 'px;">' . $thumbnail_size . 'x' . $thumbnail_size . '</span></div>',
-            'title' => '<div class="download-part-title"><h3>Download Title</h3></div>',
-            'author' => '<div class="download-part-author"><a href="#">Author</a></div>',
-            'categories' => '<div class="download-part-categories"><a href="#">Category 1</a>, <a href="#">Category 2</a></div>',
-            'price' => '<div class="download-part-price"><span>100.00$</span></div>',
-            'excerpt' => '<div class="download-part-excerpt"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi...</span></div>',
-            'tags' => '<div class="download-part-tags"><a href="#">Tag 1</a> <a href="#">Tag 2</a></div>',
-            'purchase' => '<div class="download-part-purchase"><a href="#">Purchase</a></div>',
+            'thumbnail'     => '<div class="download-part-thumbnail" style="width: ' . $thumbnail_size . 'px; height: ' . $thumbnail_size . 'px;"><span style="line-height: ' . $thumbnail_size . 'px;">' . $thumbnail_size . 'x' . $thumbnail_size . '</span></div>',
+            'title'         => '<div class="download-part-title"><h3>Download Title</h3></div>',
+            'author'        => '<div class="download-part-author"><a href="#">Author</a></div>',
+            'categories'    => '<div class="download-part-categories"><a href="#">Category 1</a>, <a href="#">Category 2</a></div>',
+            'price'         => '<div class="download-part-price"><span>100.00$</span></div>',
+            'excerpt'       => '<div class="download-part-excerpt"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi...</span></div>',
+            'tags'          => '<div class="download-part-tags"><a href="#">Tag 1</a> <a href="#">Tag 2</a></div>',
+            'purchase'      => '<div class="download-part-purchase"><a href="#">Purchase</a></div>',
         );
     }
 }
 
+/**
+ * Return EDD Download Template Tag Descriptions
+ *
+ * @since       1.0.0
+ * @return      string
+ */
 if ( ! function_exists( 'uframework_edd_download_template_tags_description' ) ) {
     function uframework_edd_download_template_tags_description() {
         return
@@ -101,6 +125,12 @@ if ( ! function_exists( 'uframework_edd_download_template_tags_description' ) ) 
     }
 }
 
+/**
+ * Parse EDD Download Template Tags
+ *
+ * @since       1.0.0
+ * @return      string
+ */
 if ( ! function_exists( 'uframework_edd_parse_download_template_tags' ) ) {
     function uframework_edd_parse_download_template_tags( $content, $download_id = null ) {
         if ( $download_id == null ) {

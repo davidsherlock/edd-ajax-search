@@ -4,7 +4,6 @@
  *
  * @package         uFramework\Options
  * @since           1.0.0
- *
  * @author          Sell Comet
  * @copyright       Copyright (c) Sell Comet
  */

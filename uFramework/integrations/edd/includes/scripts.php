@@ -4,7 +4,6 @@
  *
  * @package         uFramework\Easy_Digital_Downloads\Scripts
  * @since           1.0.0
- *
  * @author          Sell Comet
  * @copyright       Copyright (c) Sell Comet
  */
